@@ -1,0 +1,243 @@
+header, main, div, img, h1 {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#36454f;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	margin:0;
+	padding:0;
+}
+
+nav {
+	background-color:white;
+	box-shadow:0px 2px 2px #888888;
+	display:block;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	position:fixed;
+	width:100%;
+	z-index:2;
+}
+
+	a.nav-link {
+		border-bottom:3px solid white;
+		color:green;
+		display:inline-block;
+		float:right;
+		font-size:150%;
+		padding:10px;
+		text-decoration:none;
+		z-index:3;
+	}
+
+	a.nav-link:hover{
+		border-bottom:3px solid orange;
+	}
+	
+section {
+	margin:0;
+	min-height:700px;
+	padding:0;
+}
+
+	.section-header {
+		color:white;
+		font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size:200%;
+		font-weight:bold;
+		padding-bottom:40px;
+		padding-top:40px;
+		text-align:center;
+	}
+
+	.title {
+		font-size:400%;
+		padding-top:250px;
+	}
+
+	.subtitle {
+		font-size:150%;
+		padding-top:20px;"
+	}
+
+.anchor {
+	position:relative;
+	top:-50px;
+}
+
+#landing-section {
+	background-image:url("../img/venice.jpg");
+	background-size:cover;
+	display:block;
+}
+
+#about-section {
+	background-image:url("../img/cork-wallet.png");
+	background-repeat:repeat;
+	width:100%;
+}
+
+	.about-picture {
+		float:left;
+		padding-left:10%;
+		padding-top:40px;
+	}
+
+	.about-content {
+		float:right;
+		font-size:150%;
+		padding-right:9%;
+		padding-top:15px;
+		width:40%;
+	}
+
+#projects-section {
+	min-height:900px;
+}
+
+	.project-container {
+		height:328px;
+		margin:auto;
+		width:683px;
+	}
+
+		.project {
+			background-repeat:no-repeat;
+			background-size:contain;
+			float:left;
+			max-height:325px;
+			max-width:340px;
+			min-height:325px;
+			min-width:340px;
+			position:relative;
+		}
+
+		.project:hover .project-description {
+			opacity:1;
+		}
+
+		.project-left-edge {
+			padding-right:3px;
+		}
+
+			.project-image {
+				max-height:325px;
+				max-width:340px;
+				min-height:325px;
+				min-width:340px;
+				position:relative;
+			}
+
+			.project-description {
+				background:rgba(255,165,0,0.8);
+				color:white;
+				font-size:150%;
+				max-height:325px;
+				max-width:340px;
+				min-height:325px;
+				min-width:340px;
+				opacity:0;
+				position:relative;
+				text-align:center;
+				top:-329px;
+				z-index:1;
+			}
+
+				.project-description-text {
+					padding:30px 30px;
+				}
+
+				a.project-link {
+					color:white;
+					font-style:italic;
+				}
+
+			.project-name {
+				background-color:#fffafa;
+				font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+				font-size:200%;
+				max-height:50px;
+				min-height:50px;
+				position:relative;
+				text-align:center;
+				top:-50px;
+			}
+
+#resume-section {
+	background-color:white;
+	min-height:250px;
+}
+
+	a.resume-link {
+		color:green;
+		display:block;
+		font-size:200%;
+		margin:auto;
+		padding-top:25px;
+		text-align:center;
+		text-decoration:none;
+		width:344px;
+	}
+
+	a.resume-link:hover {
+		border-bottom:3px solid orange;
+	}
+
+#contact-section {
+	color:white;
+	min-height:300px;
+}
+
+	.contact-container {
+		margin:auto;
+		width:1200px;
+	}
+
+		.contact-icon {
+			display:inline-block;
+			margin:auto;
+		}
+
+		.contact-icon:hover .logo-path{
+			fill:orange;
+		}
+
+			.logo-svg {
+				height:25px;
+				width:25px;
+			}
+
+			.logo-path {
+				fill:white;
+			}
+
+		.contact-text {
+			display:inline-block;
+			font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+			font-size:120%;
+			padding-left:4px;
+			padding-right:96px;
+			text-align:center;
+		}
+
+		.contact-text-last {
+			padding-right:0px;
+		}
+
+footer {
+	color:white;
+	margin:0;
+	padding-bottom:50px;
+	text-align:center;
+}
+
+	a.code-link {
+		color:white;
+	}
+
+	a.code-link:hover {
+		color:orange;
+	}

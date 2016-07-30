@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Will Markley's Website</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<meta name="author" content="Will Markley">
+</head>
+<body>
+	<header>
+		<nav>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#landing">Home</a>
+        </nav>
+	</header>
+	<main>
+		<div class="anchor" id="landing"></div>
+		<section id="landing-section">
+				<h1 class="section-header title">Will Markley</h1>
+				<h1 class="section-header subtitle">University of Notre Dame Class of 2018</h1>
+		</section>
+		<div class="anchor" id="about"></div>
+		<section id="about-section">
+			<!-- Background image (Cork-Wallet) obtained from http://subtlepatterns.com/cork-wallet/; CC ShareAlike 3.0 License -->
+            <h1 class="section-header" style="color:black">About Me</h1>
+			<div class="about-picture">
+				<img src="img/me.jpg" alt="caption" height="365" width="400"/>
+			</div>
+			<div class="about-content">
+				<p>I am a Junior at the University of Notre Dame studying Computer Engineering.  Residing in Keough Hall, I have grow to love Notre Dame and thoroughly enjoy cheering on the Fighting Irish.  In my spare time, I lead the Entrepreneurship Society of Notre Dame, participate on the Sailing Team, and work on side-projects related to my major.  For the summer of 2017, I am seeking an internship in Software or Hardware engineering.</p>
+			</div>
+		</section>
+		<div class="anchor" id="projects"></div>
+		<section id="projects-section">
+			<h1 class="section-header">Projects</h1>
+            <div class="project-container">
+                <div class="project project-left-edge">
+                    <div class="project-image">
+                        <img src="img/fighting-irish-game0.png" alt="caption" height="325" width="340"/>
+						<div class="project-description">
+							<div class="project-description-text">Constructed entirely in C++, this game featured 3 action packed levels of Notre-Dame-Athletics-themed survival rendered in SDL graphics.</div>
+							<a class="project-link" href="fighting_irish_game/">More information</a>
+							<a class="project-link" href="https://github.com/willmarkley/FinalProject" target="_blank">Repository</a>
+						</div>
+                    </div>
+                    <div class="project-name">Fighting Irish Game</div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="img/battleship0.png" alt="caption" height="325" width="340"/>
+						<div class="project-description">
+							<div class="project-description-text">A two player game that renacts the classic board-game using C and ? graphics.</div>
+							<br>
+							<a class="project-link" href="battleship/">More information</a>
+							<a class="project-link" href="https://github.com/willmarkley/Battleship" target="_blank">Repository</a>
+						</div>
+                    </div>
+                    <div class="project-name">Battleship</div>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project project-left-edge">
+                    <div class="project-image">
+                        <img src="img/gigot0.png" alt="caption" height="325" width="340"/>
+						<div class="project-description">
+							<div class="project-description-text">A tool that helped connect alumni and students in the McCloskey Business Plan Competition.</div>
+							<br>
+							<a class="project-link" href="gigot_connections/">More information</a>
+						</div>
+                    </div>
+                    <div class="project-name">Gigot Connections</div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+						<img src="img/chess0.png" alt="caption" height="325" width="340"/>
+						<div class="project-description">
+							<div class="project-description-text">Recreation of Chess in MATLAB with both single-player gameplay against an AI and two-player classic Chess.</div>
+							<a class="project-link" href="chess/">More information</a>
+							<a class="project-link" href="https://github.com/willmarkley/Chess" target="_blank">Repository</a>
+						</div>
+					</div>
+					<div class="project-name">Chess</div>
+                </div>
+            </div>
+		</section>
+		<div class="anchor" id="resume"></div>
+		<section id="resume-section">
+			<h1 class="section-header" style="color:black">Resume</h1>
+            <a class="resume-link" href="William_Markley_Resume.pdf" target="_blank">William Markley's Resume</a>
+		</section>
+		<div class="anchor" id="contact"></div>
+		<section id="contact-section">
+			<h1 class="section-header">Contact</h1>
+            <div class="contact-container">
+            	<!-- svg files for logos obtained from https://github.com/danleech/simple-icons/tree/gh-pages/icons -->
+                <a class="contact-icon" href="mailto:wmarkley@nd.edu">
+                	<svg class="logo-svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path class="logo-path" d="M15.244 7.386c-.023.607-.112 1.204-.266 1.79-.155.587-.387 1.11-.696 1.572-.31.46-.703.833-1.18 1.117-.48.283-1.053.425-1.723.425-.47 0-.885-.102-1.246-.305-.36-.203-.64-.49-.842-.863-.56.756-1.314 1.134-2.258 1.134-.413 0-.788-.092-1.126-.275-.337-.183-.62-.444-.845-.785-.227-.34-.39-.75-.49-1.228-.1-.478-.122-1.012-.064-1.602.084-.72.248-1.376.488-1.962.24-.587.54-1.088.902-1.503.36-.415.774-.735 1.24-.958.468-.223.97-.335 1.508-.335.344 0 .644.026.902.077.258.052.49.122.7.21.21.09.402.19.58.306.177.114.355.232.532.352l-.438 5.04c-.03.242-.024.438.013.59.037.15.097.273.18.364.083.092.18.155.292.19.11.034.224.05.34.05.245 0 .474-.084.686-.252.21-.17.395-.403.55-.7.154-.298.277-.65.37-1.052.09-.404.145-.84.162-1.31.046-.893-.023-1.71-.206-2.448-.184-.738-.486-1.37-.906-1.894-.42-.523-.962-.93-1.624-1.22-.66-.288-1.45-.433-2.366-.433-.87 0-1.65.17-2.34.51-.69.342-1.283.813-1.778 1.414-.495.602-.883 1.31-1.164 2.127-.28.815-.443 1.7-.49 2.65-.045 1.03.038 1.93.25 2.704.212.774.54 1.42.988 1.938.446.518 1.004.906 1.674 1.164.67.257 1.44.386 2.31.386.247 0 .5-.014.756-.043.258-.028.51-.068.76-.12.25-.05.487-.11.713-.176.226-.067.43-.14.614-.22l.317 1.426c-.2.13-.43.244-.687.34-.258.093-.528.172-.812.235-.283.064-.57.11-.863.143-.292.03-.57.047-.833.047-1.162 0-2.193-.166-3.092-.498-.898-.332-1.65-.826-2.254-1.482-.604-.655-1.055-1.47-1.353-2.447-.297-.976-.423-2.11-.378-3.397.052-1.174.268-2.26.65-3.26.38-.998.902-1.86 1.566-2.59C3.636 1.6 4.43 1.032 5.356.62 6.28.206 7.31 0 8.45 0c1.134 0 2.133.18 2.998.537.864.358 1.586.86 2.164 1.51.578.65 1.006 1.428 1.284 2.333.278.905.394 1.907.348 3.006zm-8.588.98c-.063.743-.005 1.306.176 1.687.18.38.47.57.87.57.087 0 .186-.018.298-.055.11-.037.226-.106.343-.206.118-.1.234-.24.348-.42.116-.18.222-.418.32-.71l.342-3.916c-.17-.046-.35-.07-.532-.07-.344 0-.638.07-.885.203-.246.134-.455.333-.627.596-.17.264-.31.59-.416.98-.106.39-.185.835-.236 1.34z" fill-rule="nonzero"/></svg>
+                </a>
+                <p class="contact-text">wmarkley@nd.edu</p>
+                <a class="contact-icon" href="https://www.linkedin.com/in/william-markley-385463b1" target="_blank">
+                	<svg class="logo-svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path class="logo-path" d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
+                </a>
+                <p class="contact-text">william-markley</p>
+                <a class="contact-icon" href="https://github.com/willmarkley" target="_blank">
+                	<svg class="logo-svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path class="logo-path" d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+                </a>
+                <p class="contact-text">willmarkley</p>
+                <a class="contact-icon" href="https://www.facebook.com/will.markley" target="_blank">
+                	<svg class="logo-svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path class="logo-path" d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0" fill-rule="nonzero"/></svg>
+                </a>
+                <p class="contact-text">will.markley</p>
+                <a class="contact-icon" href="https://www.skype.com/en/" target="_blank">
+                	<svg class="logo-svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path class="logo-path" d="M8.035 12.6c-2.685 0-3.885-1.322-3.885-2.313 0-.51.374-.865.89-.865 1.15 0 .85 1.653 2.995 1.653 1.096 0 1.703-.597 1.703-1.208 0-.368-.18-.775-.904-.954l-2.387-.597C4.524 7.833 4.175 6.79 4.175 5.812c0-2.034 1.91-2.798 3.704-2.798 1.65 0 3.6.916 3.6 2.136 0 .523-.452.827-.97.827-.98 0-.798-1.36-2.773-1.36-.98 0-1.523.444-1.523 1.08 0 .636.774.84 1.446.993l1.767.392c1.936.433 2.427 1.566 2.427 2.633 0 1.652-1.266 2.886-3.82 2.886m7.4-3.264l-.014.084-.028-.16c.015.024.028.05.042.076.082-.45.125-.912.125-1.373 0-1.023-.2-2.014-.595-2.948-.38-.902-.925-1.712-1.62-2.407-.692-.696-1.5-1.242-2.4-1.623C10.015.59 9.025.39 8.005.39c-.48 0-.963.045-1.43.135H6.57l.08.04-.16-.023.08-.016C5.927.183 5.205 0 4.472 0 3.278 0 2.155.466 1.31 1.313.465 2.16 0 3.286 0 4.483c0 .763.195 1.512.563 2.175l.013-.083.028.16c-.015-.026-.027-.052-.04-.077-.076.43-.115.867-.115 1.305 0 1.022.2 2.014.593 2.948.38.903.925 1.713 1.62 2.408.693.695 1.5 1.242 2.4 1.623.932.397 1.92.597 2.94.597.445 0 .89-.04 1.325-.118l-.077-.043.162.028-.084.014c.67.378 1.426.58 2.2.58 1.194 0 2.317-.466 3.162-1.313.845-.846 1.31-1.972 1.31-3.17 0-.765-.197-1.517-.566-2.18" fill-rule="nonzero"/></svg>
+                </a>
+                <p class="contact-text contact-text-last">will.markley</p>
+            </div>
+		</section>
+	</main>
+	<footer>Site created by Will Markley from scratch using only HTML and CSS (<a class="code-link" href="#landing" target="_blank">Code</a>)</footer>
+</body>
+</html>

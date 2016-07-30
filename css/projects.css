@@ -1,0 +1,26 @@
+.details {
+	padding-top:50px;
+	width:80%;
+	margin:auto;
+	color:white;
+	font-size:150%;
+}
+
+.language, .repository {
+	color:white;
+	font-style:italic;
+}
+
+.repository:hover {
+	color:orange;
+}
+
+.image {
+	margin:auto;
+	width:640px;
+}
+
+.images_large {
+	margin:auto;
+	width:1000px;
+}
