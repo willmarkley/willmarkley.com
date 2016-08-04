@@ -193,12 +193,15 @@ section {
 
 	.contact-container {
 		margin:auto;
-		width:1200px;
+		/*width:1200px;*/
+		padding-right:30px;
+		padding-left:30px;
 	}
 
 		.contact-icon {
 			display:inline-block;
 			margin:auto;
+			text-decoration:none;
 		}
 
 		.contact-icon:hover .logo-path{
@@ -219,13 +222,14 @@ section {
 			font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 			font-size:120%;
 			padding-left:4px;
-			padding-right:96px;
 			text-align:center;
 		}
 
-		.contact-text-last {
-			padding-right:0px;
-		}
+	.flexbox {
+		display: flex;
+		justify-content: space-between;
+	}
+
 
 footer {
 	color:white;
