@@ -101,7 +101,7 @@ section {
 	.project-container {
 		height:328px;
 		margin:auto;
-		width:683px;
+		width:1026px;
 	}
 
 		.project {
@@ -121,6 +121,10 @@ section {
 
 		.project-left-edge {
 			padding-right:3px;
+		}
+		
+		.project-right-edge {
+  		  padding-left:3px;
 		}
 
 			.project-image {
