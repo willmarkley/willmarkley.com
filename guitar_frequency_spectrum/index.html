@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Will Markley's Website</title>
+	<link rel="stylesheet" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="../css/projects.css">
+</head>
+<body>
+	<nav>
+		<a class="nav-link" href="../#projects">Return to Will's Projects</a>
+	</nav>
+	<div class="details">
+		<h1 class="section-header">Guitar Frequency Spectrum Analyzer</h1>
+		<a class="repository" href="https://hackaday.io/project/13202-guitar-frequency-spectrum-analyzer" target="_blank">Repository</a>
+		<p class="description">Using an Arduino Micro-controller, this circuit displays the frequency spectrum of a guitar signal. The analog guitar signal is amplified and offset so it can be correctly read into the Arduino ADC to become a digital signal. This is accomplished via an OP AMP and a voltage divider. The Arduino runs the Fast Hartley Transform (FHT) algorithm, which is a Fast Fourier Transform on only real data and not complex data, on the signal. After the signal has been converted to a function of frequency, coefficients are assigned to each of the 16 bins that cover the frequency spectrum. The values of each bin are displayed on a 16x8 LED Matrix via a I2C interface.</p>
+	</div>
+		<div class="images_large">
+		<img src="../img/guitar-frequency-spectrum1.png" alt="guitar-frequency-spectrum1" width="1000" height="750"/>
+		<img src="../img/guitar-frequency-spectrum2.png" alt="guitar-frequency-spectrum2" width="1000" height="689"/>
+		<img src="../img/guitar-frequency-spectrum3.png" alt="guitar-frequency-spectrum3" width="1000" height="1139"/>
+		<img src="../img/guitar-frequency-spectrum4.png" alt="guitar-frequency-spectrum4" width="1000" height="750"/>
+		<img src="../img/guitar-frequency-spectrum5.png" alt="guitar-frequency-spectrum5" width="1000" height="750"/>
+		<!-- <img src="../img/guitar-frequency-spectrum6.png" alt="guitar-frequency-spectrum6" width="1000" height=""/> -->
+		<img src="../img/guitar-frequency-spectrum7.png" alt="guitar-frequency-spectrum7" width="1000" height="764"/>
+		<img src="../img/guitar-frequency-spectrum8.png" alt="guitar-frequency-spectrum8" width="1000" height="483"/>
+
+	</div>
+</body>
+</html>
