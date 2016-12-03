@@ -60,7 +60,7 @@ section {
 
 	.subtitle {
 		font-size:150%;
-		padding-top:20px;"
+		padding-top:20px;
 	}
 
 .anchor {
@@ -73,6 +73,15 @@ section {
 	background-size:cover;
 	display:block;
 }
+
+/*
+.landing-image {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+*/
 
 #about-section {
 	background-image:url("../img/cork-wallet.png");
@@ -198,8 +207,8 @@ section {
 	.contact-container {
 		margin:auto;
 		/*width:1200px;*/
-		padding-right:30px;
-		padding-left:30px;
+		padding-right:60px;
+		padding-left:60px;
 	}
 
 		.contact-icon {
