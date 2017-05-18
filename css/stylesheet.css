@@ -86,6 +86,7 @@ section {
 #about-section {
 	background-image:url("../img/cork-wallet.png");
 	background-repeat:repeat;
+	min-height:500px;
 	width:100%;
 }
 
@@ -104,7 +105,7 @@ section {
 	}
 
 #projects-section {
-	min-height:900px;
+	min-height:1200px;
 }
 
 	.project-container {
