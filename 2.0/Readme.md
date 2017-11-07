@@ -1,6 +1,6 @@
 # willmarkley.com 2.0
 
-This website is intended to serve as a new landing page for willmarkley.com while the rest of the information on the previous site has been transferred to github.com.  
+This website is intended to serve as a new landing page for http://willmarkley.com while the rest of the information on the previous site has been transferred to [Github](https://github.com/willmarkley).  
 
 ## Template
 
